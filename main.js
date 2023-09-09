@@ -39,8 +39,20 @@ window.addEventListener('load', () => {
 })
 
 
-function SortTodos () {
-	
+function SortTodos (e) {
+     const todos=todoList.childNodes
+        todos.forEach(function(DisplayTodos){
+            if(e.target.value==="business"){
+                todo.display="business"
+
+            }else if(e.target.value==="personal"){
+                todo.display="personal"
+
+			}else{
+				todo.display="holiday"
+        }
+}
+
 }
 
 
