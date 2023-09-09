@@ -88,6 +88,25 @@ h3 {
 	cursor: pointer;
 }
 
+ .optionsFiltering {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+ .optionsFiltering label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFF;
+	padding: 1.5rem;
+	box-shadow: var(--shadow);
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
 	display: none;
